@@ -1,0 +1,159 @@
+[2021-11-04 19:21:54Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-11-04 19:21:54Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:21:54Z INFO HostContext] Well known directory 'Root': '/home/student/WebMessageServer226/actions-runner'
+[2021-11-04 19:21:54Z INFO HostContext] Well known config file 'Credentials': '/home/student/WebMessageServer226/actions-runner/.credentials'
+[2021-11-04 19:21:55Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2021-11-04 19:21:55Z INFO Listener] RuntimeInformation: Linux 5.4.0-89-generic #100-Ubuntu SMP Fri Sep 24 14:50:10 UTC 2021.
+[2021-11-04 19:21:55Z INFO Listener] Version: 2.284.0
+[2021-11-04 19:21:55Z INFO Listener] Commit: 9027c154d05776c16f6df6c0345bc9ec20440ebe
+[2021-11-04 19:21:55Z INFO Listener] Culture: en-US
+[2021-11-04 19:21:55Z INFO Listener] UI Culture: en-US
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Root': '/home/student/WebMessageServer226/actions-runner'
+[2021-11-04 19:21:55Z INFO Listener] Validating directory permissions for: '/home/student/WebMessageServer226/actions-runner'
+[2021-11-04 19:21:55Z INFO CommandLineParser] Parse
+[2021-11-04 19:21:55Z INFO CommandLineParser] Parsing 1 args
+[2021-11-04 19:21:55Z INFO CommandLineParser] parsing argument
+[2021-11-04 19:21:55Z INFO CommandLineParser] HasArgs: False
+[2021-11-04 19:21:55Z INFO CommandLineParser] Adding Command: run
+[2021-11-04 19:21:55Z INFO Listener] Arguments parsed
+[2021-11-04 19:21:55Z INFO Runner] ExecuteCommand
+[2021-11-04 19:21:55Z INFO ConfigurationStore] currentAssemblyLocation: /home/student/WebMessageServer226/actions-runner/bin/Runner.Listener.dll
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:21:55Z INFO ConfigurationStore] binPath: /home/student/WebMessageServer226/actions-runner/bin
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Root': '/home/student/WebMessageServer226/actions-runner'
+[2021-11-04 19:21:55Z INFO ConfigurationStore] RootFolder: /home/student/WebMessageServer226/actions-runner
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Root': '/home/student/WebMessageServer226/actions-runner'
+[2021-11-04 19:21:55Z INFO HostContext] Well known config file 'Runner': '/home/student/WebMessageServer226/actions-runner/.runner'
+[2021-11-04 19:21:55Z INFO ConfigurationStore] ConfigFilePath: /home/student/WebMessageServer226/actions-runner/.runner
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Root': '/home/student/WebMessageServer226/actions-runner'
+[2021-11-04 19:21:55Z INFO HostContext] Well known config file 'Credentials': '/home/student/WebMessageServer226/actions-runner/.credentials'
+[2021-11-04 19:21:55Z INFO ConfigurationStore] CredFilePath: /home/student/WebMessageServer226/actions-runner/.credentials
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Root': '/home/student/WebMessageServer226/actions-runner'
+[2021-11-04 19:21:55Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/student/WebMessageServer226/actions-runner/.credentials_migrated'
+[2021-11-04 19:21:55Z INFO ConfigurationStore] MigratedCredFilePath: /home/student/WebMessageServer226/actions-runner/.credentials_migrated
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Root': '/home/student/WebMessageServer226/actions-runner'
+[2021-11-04 19:21:55Z INFO HostContext] Well known config file 'Service': '/home/student/WebMessageServer226/actions-runner/.service'
+[2021-11-04 19:21:55Z INFO ConfigurationStore] ServiceConfigFilePath: /home/student/WebMessageServer226/actions-runner/.service
+[2021-11-04 19:21:55Z INFO CommandSettings] Flag 'help': 'False'
+[2021-11-04 19:21:55Z INFO CommandSettings] Flag 'version': 'False'
+[2021-11-04 19:21:55Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-11-04 19:21:55Z INFO CommandSettings] Flag 'check': 'False'
+[2021-11-04 19:21:55Z INFO CommandSettings] Command 'configure': 'False'
+[2021-11-04 19:21:55Z INFO CommandSettings] Command 'remove': 'False'
+[2021-11-04 19:21:55Z INFO CommandSettings] Command 'warmup': 'False'
+[2021-11-04 19:21:55Z INFO ConfigurationManager] LoadSettings
+[2021-11-04 19:21:55Z INFO ConfigurationStore] IsConfigured()
+[2021-11-04 19:21:55Z INFO ConfigurationStore] IsConfigured: True
+[2021-11-04 19:21:55Z INFO ConfigurationManager] Is configured: True
+[2021-11-04 19:21:55Z INFO ConfigurationStore] Read setting file: 292 chars
+[2021-11-04 19:21:55Z INFO ConfigurationManager] Settings Loaded
+[2021-11-04 19:21:55Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-11-04 19:21:55Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-11-04 19:21:55Z INFO CommandSettings] Command 'run': 'True'
+[2021-11-04 19:21:55Z INFO ConfigurationStore] IsConfigured()
+[2021-11-04 19:21:55Z INFO ConfigurationStore] IsConfigured: True
+[2021-11-04 19:21:55Z INFO ConfigurationManager] Is configured: True
+[2021-11-04 19:21:55Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2021-11-04 19:21:55Z INFO Runner] Set runner startup type - Manual
+[2021-11-04 19:21:55Z INFO CommandSettings] Flag 'once': 'False'
+[2021-11-04 19:21:55Z INFO CommandSettings] Flag 'once': 'False'
+[2021-11-04 19:21:55Z INFO Runner] RunAsync
+[2021-11-04 19:21:55Z INFO ConfigurationManager] LoadSettings
+[2021-11-04 19:21:55Z INFO ConfigurationStore] IsConfigured()
+[2021-11-04 19:21:55Z INFO ConfigurationStore] IsConfigured: True
+[2021-11-04 19:21:55Z INFO ConfigurationManager] Is configured: True
+[2021-11-04 19:21:55Z INFO ConfigurationManager] Settings Loaded
+[2021-11-04 19:21:55Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "ics226",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/qMl7EwnqfZ1x0o7IK9RxvYP0PNN8uQgB8CbLeiEZWd7OAWcx8J",
+  "GitHubUrl": "https://github.com/j-beckett/WebMessageServer226",
+  "WorkFolder": "_work"
+}
+[2021-11-04 19:21:55Z INFO MessageListener] Loading Credentials
+[2021-11-04 19:21:55Z INFO ConfigurationStore] HasCredentials()
+[2021-11-04 19:21:55Z INFO ConfigurationStore] stored True
+[2021-11-04 19:21:55Z INFO CredentialManager] GetCredentialProvider
+[2021-11-04 19:21:55Z INFO CredentialManager] Creating type OAuth
+[2021-11-04 19:21:55Z INFO CredentialManager] Creating credential type: OAuth
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:21:55Z INFO HostContext] Well known directory 'Root': '/home/student/WebMessageServer226/actions-runner'
+[2021-11-04 19:21:55Z INFO HostContext] Well known config file 'RSACredentials': '/home/student/WebMessageServer226/actions-runner/.credentials_rsaparams'
+[2021-11-04 19:21:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/student/WebMessageServer226/actions-runner/.credentials_rsaparams
+[2021-11-04 19:21:55Z INFO MessageListener] Attempt to create session.
+[2021-11-04 19:21:55Z INFO MessageListener] Connecting to the Runner Server...
+[2021-11-04 19:21:55Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-11-04 19:21:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-11-04 19:21:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-11-04 19:21:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-11-04 19:21:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-11-04 19:21:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-11-04 19:21:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-11-04 19:21:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-11-04 19:21:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-11-04 19:21:56Z INFO MessageListener] VssConnection created
+[2021-11-04 19:21:56Z INFO Terminal] WRITE LINE: 
+[2021-11-04 19:21:56Z INFO Terminal] WRITE LINE: 
+[2021-11-04 19:21:56Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 438a33bb-57ee-4b6f-889b-5ebdd3fe23de
+ActivityId: 47c28e6f-f683-4626-a576-6049e6fe10d3
+X-TFS-Session: d1e60f3b-e51a-4f02-af4b-699e143dd2e4
+X-VSS-E2EID: 6418a5b1-ec9d-412c-b8de-9f588de785b6
+X-VSS-SenderDeploymentId: 6be79bb9-f6f7-24a7-0b27-e718f2ab4200
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: CBB390E5CE354988BDD6D9DFE835CD26 Ref B: WSTEDGE0903 Ref C: 2021-11-04T19:21:56Z
+Date: Thu, 04 Nov 2021 19:21:55 GMT
+
+[2021-11-04 19:21:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/student/WebMessageServer226/actions-runner/.credentials_rsaparams
+[2021-11-04 19:21:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/student/WebMessageServer226/actions-runner/.credentials_rsaparams
+[2021-11-04 19:21:57Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-11-04 19:21:57Z INFO MessageListener] Session created.
+[2021-11-04 19:21:57Z INFO Terminal] WRITE LINE: Current runner version: '2.284.0'
+[2021-11-04 19:21:57Z INFO Terminal] WRITE LINE: 2021-11-04 19:21:57Z: Listening for Jobs
+[2021-11-04 19:21:57Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-11-04 19:22:00Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/student/WebMessageServer226/actions-runner/.credentials_rsaparams
+[2021-11-04 19:22:00Z INFO MessageListener] Message '1' received from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a'.
+[2021-11-04 19:22:00Z INFO JobDispatcher] Job request 1 for plan e11913e5-cd62-430a-aac0-eeac55c4b0c2 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-11-04 19:22:00Z INFO JobDispatcher] Pull OrchestrationId e11913e5-cd62-430a-aac0-eeac55c4b0c2.build.__default from JWT claims
+[2021-11-04 19:22:00Z INFO Terminal] WRITE LINE: 2021-11-04 19:22:00Z: Running job: build
+[2021-11-04 19:22:00Z INFO JobDispatcher] Start renew job request 1 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-11-04 19:22:00Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 11/4/2021 7:32:00 PM
+[2021-11-04 19:22:00Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper] Starting process:
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   File name: '/home/student/WebMessageServer226/actions-runner/bin/Runner.Worker'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 102 105'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   Working directory: '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-11-04 19:22:00Z INFO ProcessInvokerWrapper] Process started with process id 78913, waiting for process exit.
+[2021-11-04 19:22:00Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-11-04 19:22:01Z INFO ProcessChannel] Sending message of length 19926, with hash '1996d6f23e69eaeff01033229ebcaa0d8021599760a533372f475fec57bee10f'
+[2021-11-04 19:22:01Z INFO JobNotification] Entering JobStarted Notification
+[2021-11-04 19:22:01Z INFO JobNotification] Entering StartMonitor
+[2021-11-04 19:22:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-11-04 19:22:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-11-04 19:22:33Z INFO ProcessInvokerWrapper] Finished process 78913 with exit code 100, and elapsed time 00:00:32.3392768.
+[2021-11-04 19:22:33Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2021-11-04 19:22:33Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2021-11-04 19:22:33Z INFO Terminal] WRITE LINE: 2021-11-04 19:22:33Z: Job build completed with result: Succeeded
+[2021-11-04 19:22:33Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-11-04 19:22:33Z INFO JobDispatcher] job renew has been canceled, stop renew job request 1.
+[2021-11-04 19:22:33Z INFO JobNotification] Entering JobCompleted Notification
+[2021-11-04 19:22:33Z INFO JobNotification] Entering EndMonitor

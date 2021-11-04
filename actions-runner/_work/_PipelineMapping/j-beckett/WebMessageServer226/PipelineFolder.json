@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "j-beckett/WebMessageServer226",
+  "pipelineDirectory": "WebMessageServer226",
+  "workspaceDirectory": "WebMessageServer226/WebMessageServer226",
+  "repositories": {
+    "j-beckett/WebMessageServer226": {
+      "repositoryPath": "WebMessageServer226/WebMessageServer226",
+      "lastRunOn": "11/04/2021 12:22:03 -07:00"
+    }
+  },
+  "lastRunOn": "11/04/2021 12:22:03 -07:00"
+}
