@@ -15,7 +15,11 @@ class MessageCreate(CreateView):
 #allows a user to update a message. Validation checked in 'models' class.
 class MessageUpdate(UpdateView):
     model = Message
+<<<<<<< HEAD
     fields = ['message']
+=======
+    fields = ['key', 'message']
+>>>>>>> a5779edde3cc99775d5470bf74e4f212214f1e20
     success_url = reverse_lazy('allmessages')
 
 #this function returns all current message/key pairs in a JSON format and displays them to the /msgserver page.
@@ -31,7 +35,11 @@ def show_all_messages(request):
 def get_message(request, key):
     mess = Message.objects.filter(key = key)
     if (len(mess) == 1):                     
+<<<<<<< HEAD
         return HttpResponse("Key is %(key)s and message is %(message)s " %{'key':mess[0].key, 'message':mess[0].message})
+=======
+        return HttpResponse("Key is  %(key)s and message is %(message)s " %{'key':mess[0].key, 'message':mess[0].message})
+>>>>>>> a5779edde3cc99775d5470bf74e4f212214f1e20
     else:
         return HttpResponse("No message at key" + str(key))
 
