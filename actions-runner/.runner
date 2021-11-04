@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 2,
-  "agentName": "ics226",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelines.actions.githubusercontent.com/qMl7EwnqfZ1x0o7IK9RxvYP0PNN8uQgB8CbLeiEZWd7OAWcx8J",
-  "gitHubUrl": "https://github.com/j-beckett/WebMessageServer226",
-  "workFolder": "_work"
-}
