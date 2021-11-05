@@ -157,3 +157,111 @@ Date: Thu, 04 Nov 2021 19:21:55 GMT
 [2021-11-04 19:22:33Z INFO JobDispatcher] job renew has been canceled, stop renew job request 1.
 [2021-11-04 19:22:33Z INFO JobNotification] Entering JobCompleted Notification
 [2021-11-04 19:22:33Z INFO JobNotification] Entering EndMonitor
+[2021-11-04 19:43:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/student/WebMessageServer226/actions-runner/.credentials_rsaparams
+[2021-11-04 19:43:57Z INFO MessageListener] Message '2' received from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a'.
+[2021-11-04 19:43:57Z INFO JobDispatcher] Job request 2 for plan dfa89cc0-beb8-4ae4-bed5-88470c3aed4c job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-11-04 19:43:57Z INFO JobDispatcher] Pull OrchestrationId dfa89cc0-beb8-4ae4-bed5-88470c3aed4c.build.__default from JWT claims
+[2021-11-04 19:43:57Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2021-11-04 19:43:57Z INFO Terminal] WRITE LINE: 2021-11-04 19:43:57Z: Running job: build
+[2021-11-04 19:43:57Z INFO JobDispatcher] Start renew job request 2 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-11-04 19:43:58Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 11/4/2021 7:53:58 PM
+[2021-11-04 19:43:58Z INFO HostContext] Well known directory 'Bin': '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper] Starting process:
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   File name: '/home/student/WebMessageServer226/actions-runner/bin/Runner.Worker'
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 96 104'
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   Working directory: '/home/student/WebMessageServer226/actions-runner/bin'
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-11-04 19:43:58Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-11-04 19:44:08Z INFO ProcessInvokerWrapper] Process started with process id 83524, waiting for process exit.
+[2021-11-04 19:44:08Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-11-04 19:44:08Z INFO ProcessChannel] Sending message of length 38039, with hash '925263a291ca417105ef41ef02b8057fae71e706efee50a336f9c0874897513a'
+[2021-11-04 19:44:10Z INFO JobNotification] Entering JobStarted Notification
+[2021-11-04 19:44:10Z INFO JobNotification] Entering StartMonitor
+[2021-11-04 19:44:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-11-04 19:44:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-11-04 19:44:28Z INFO ProcessInvokerWrapper] Finished process 83524 with exit code 100, and elapsed time 00:00:29.9544510.
+[2021-11-04 19:44:28Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2021-11-04 19:44:28Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2021-11-04 19:44:28Z INFO Terminal] WRITE LINE: 2021-11-04 19:44:28Z: Job build completed with result: Succeeded
+[2021-11-04 19:44:28Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-11-04 19:44:28Z INFO JobDispatcher] job renew has been canceled, stop renew job request 2.
+[2021-11-04 19:44:28Z INFO JobNotification] Entering JobCompleted Notification
+[2021-11-04 19:44:28Z INFO JobNotification] Entering EndMonitor
+[2021-11-04 20:14:04Z INFO MessageListener] No message retrieved from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a' within last 30 minutes.
+[2021-11-04 20:17:25Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 438a33bb-57ee-4b6f-889b-5ebdd3fe23de
+ActivityId: 47d20720-f683-4626-a576-6049e6fe10d3
+X-TFS-Session: d1e60f3b-e51a-4f02-af4b-699e143dd2e4
+X-VSS-E2EID: 423102c8-ef05-445d-b96b-c33441be1160
+X-VSS-SenderDeploymentId: 6be79bb9-f6f7-24a7-0b27-e718f2ab4200
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: FE7B0CC108D34FE0877D171BCB803916 Ref B: WSTEDGE0903 Ref C: 2021-11-04T20:17:25Z
+Date: Thu, 04 Nov 2021 20:17:24 GMT
+
+[2021-11-04 20:17:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/student/WebMessageServer226/actions-runner/.credentials_rsaparams
+[2021-11-04 20:17:25Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-11-04 20:44:10Z INFO MessageListener] No message retrieved from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a' within last 30 minutes.
+[2021-11-04 21:12:35Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c92e6431-32d7-4d55-be35-af59fc1c58d7
+ActivityId: 1a8505a2-e74d-4e42-814c-43ce49f5c12c
+X-TFS-Session: d1e60f3b-e51a-4f02-af4b-699e143dd2e4
+X-VSS-E2EID: 913ec550-d0dd-4a59-acff-daaca3267a72
+X-VSS-SenderDeploymentId: 6be79bb9-f6f7-24a7-0b27-e718f2ab4200
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: A8466063C29B4CDC82E4DDEB7E26EFFB Ref B: WSTEDGE0903 Ref C: 2021-11-04T21:12:35Z
+Date: Thu, 04 Nov 2021 21:12:35 GMT
+
+[2021-11-04 21:12:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/student/WebMessageServer226/actions-runner/.credentials_rsaparams
+[2021-11-04 21:12:36Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-11-04 21:14:16Z INFO MessageListener] No message retrieved from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a' within last 30 minutes.
+[2021-11-04 21:44:21Z INFO MessageListener] No message retrieved from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a' within last 30 minutes.
+[2021-11-04 22:07:45Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 438a33bb-57ee-4b6f-889b-5ebdd3fe23de
+ActivityId: 47be72bf-f683-4626-a576-6049e6fe10d3
+X-TFS-Session: d1e60f3b-e51a-4f02-af4b-699e143dd2e4
+X-VSS-E2EID: 3b28b735-ba34-4e6a-80f5-ebf99aac3cb6
+X-VSS-SenderDeploymentId: 6be79bb9-f6f7-24a7-0b27-e718f2ab4200
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 388EF0BC3AC94690BE6F391A83D422F5 Ref B: WSTEDGE0903 Ref C: 2021-11-04T22:07:45Z
+Date: Thu, 04 Nov 2021 22:07:45 GMT
+
+[2021-11-04 22:07:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/student/WebMessageServer226/actions-runner/.credentials_rsaparams
+[2021-11-04 22:07:46Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-11-04 22:14:28Z INFO MessageListener] No message retrieved from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a' within last 30 minutes.
+[2021-11-04 22:44:34Z INFO MessageListener] No message retrieved from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a' within last 30 minutes.
+[2021-11-04 23:02:57Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 3e7d0063-bd98-4d3b-90af-8dcfd616f026
+ActivityId: 279b8998-e5f2-4cdc-9fb5-9f3b3b2fa00a
+X-TFS-Session: d1e60f3b-e51a-4f02-af4b-699e143dd2e4
+X-VSS-E2EID: 107f6ed2-bc55-4ea8-9cdb-20bbc13cc16b
+X-VSS-SenderDeploymentId: 6be79bb9-f6f7-24a7-0b27-e718f2ab4200
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: C9781FF4114E41B291B744DB032EA0BA Ref B: WSTEDGE0903 Ref C: 2021-11-04T23:02:57Z
+Date: Thu, 04 Nov 2021 23:02:57 GMT
+
+[2021-11-04 23:02:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/student/WebMessageServer226/actions-runner/.credentials_rsaparams
+[2021-11-04 23:02:58Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-11-04 23:14:40Z INFO MessageListener] No message retrieved from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a' within last 30 minutes.
+[2021-11-04 23:44:45Z INFO MessageListener] No message retrieved from session '2c357b17-83e8-470d-aa84-6fcd7dc0829a' within last 30 minutes.
