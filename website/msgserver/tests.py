@@ -29,7 +29,7 @@ class MessageTestCase(TestCase):
 
 ## UPDATE TEST ##
 # 
-    def test_valid_update(self): #################################
+    def test_valid_update(self): 
         response = self.client.post("/msgserver/create/" , {'message':'this is a message' , 'key': '1234567b' })
         #print(response.content)
         createdMessage = Message.objects.get(key='1234567b')
@@ -47,8 +47,18 @@ class MessageTestCase(TestCase):
         # [params? where the error is, what caused the error, and what the error should be?] 
 
     def test_key_too_short(self):
-        response = self.client.post("/msgserver/create/" , {'message':'this is a test message' , 'key': '1234579' })  ##add more key length tests
-        self.assertFormError(response, 'form', 'key', 'Key must be 8 chars long')  
+        key = ''
+        for i in range (constants.KEY_LENGTH-1):
+            key = key + str(i)
+            print(key)
+            response = self.client.post("/msgserver/create/" , {'message':'this is a test message' , 'key': key })
+            self.assertFormError(response, 'form', 'key', 'Key must be 8 chars long')  
+
+    def test_key_too_long(self):
+        key = '123456789'
+        response = self.client.post("/msgserver/create/" , {'message':'this is a test message' , 'key': key })
+        self.assertFormError(response, 'form', 'key', 'Ensure this value has at most ' + str(constants.KEY_LENGTH) + ' characters (it has ' + str(len(key)) + ').'  )  
+
 
 
     def test_message_too_short(self):
@@ -59,7 +69,7 @@ class MessageTestCase(TestCase):
     def test_message_too_long(self):
         toSend = 'this is a message that tests length. It has to be at least 160 chars long, which is quite a lot of chars. Imagine you are writing a funny story to your best friend over text message. It is going to be a whole novel!'
         response = self.client.post("/msgserver/create/" , {'message':toSend, 'key': '1234567b' })
-        self.assertFormError(response, 'form', 'message', 'Ensure this value has at most 160 characters (it has ' + str(len(toSend)) + ').'  )  
+        self.assertFormError(response, 'form', 'message', 'Ensure this value has at most ' + str(constants.MAX_MESSAGE_LENGTH) + ' characters (it has ' + str(len(toSend)) + ').'  )  
 
     ##CHECK FOR JSON FORMAT ##
     
