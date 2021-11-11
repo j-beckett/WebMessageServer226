@@ -16,7 +16,7 @@ class MessageTestCase(TestCase):
         response = self.client.post("/msgserver/create/" , {'message':'this is an allowable message' , 'key': '1234567a' })
         response = self.client.get("/msgserver/get/1234567a/")
         msg = response.content
-        self.assertEqual(msg, b'Key is 1234567a and message is this is an allowable message ')
+        self.assertEqual(msg, b'1234567a:this is an allowable message ')
 
 
     def test_key_already_exists(self):
