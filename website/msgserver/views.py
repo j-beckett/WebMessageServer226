@@ -31,7 +31,7 @@ def show_all_messages(request):
 def get_message(request, key):
     mess = Message.objects.filter(key = key)
     if (len(mess) == 1):                     
-        return HttpResponse("Key is %(key)s and message is %(message)s " %{'key':mess[0].key, 'message':mess[0].message})
+        return HttpResponse("%(key)s:%(message)s " %{'key':mess[0].key, 'message':mess[0].message})
     else:
         return HttpResponse("No message at key" + str(key))
 
