@@ -37,7 +37,7 @@ SECURE_HSTS_PRELOAD = True
 SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['peaceful-journey-88453.herokuapp.com', '127.0.0.1']      #this i'm not sure I added in the right place?
 
